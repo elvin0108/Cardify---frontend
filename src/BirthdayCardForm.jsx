@@ -27,7 +27,7 @@ const BirthdayCardForm = () => {
         birthdate,
       };
 
-      const response = await fetch('http://localhost:4000/card/download/', {
+      const response = await fetch('https://cardify-backend-a9rd.onrender.com/card/download/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
